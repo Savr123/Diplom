@@ -1,0 +1,38 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container-radio{
+  overflow: auto;
+}
+.card-radio{
+  width: 230px;
+  height: 230px;
+  position: relative;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  word-wrap: break-word;
+  background-clip: border-box;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  border-radius: 0.25rem;
+  background-color: red;
+  border-color: white;
+}
+.main-card-radio{
+  display: grid;
+  align-items: center;
+  justify-content: center;
+
+}
+.container-row-radio{
+
+}
+.main-card-radio audio{
+  margin: 0;
+  padding: 0;
+
+}
